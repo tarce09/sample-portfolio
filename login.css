@@ -253,6 +253,13 @@ nav.sticky{
       width :0px;
       opacity: 0;
     }
+    .wave{
+      position: absolute;
+      bottom: 0%;
+      left: 0%;
+      z-index: -100;
+      opacity: 0;
+    }
   }
 
   .cont2{
