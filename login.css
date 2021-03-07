@@ -12,6 +12,7 @@ nav.sticky{
   box-shadow: 4px 3px 91px rgba(80,80,80,20%);
 }
 #imageperson{
+  width: 0px;
   height: 500px;
   
 }
@@ -107,9 +108,10 @@ nav.sticky{
     background-position: center center;
     position: relative;
     margin-top: 7%;
+    margin-left: 100px;
     transition: .5s;
     border-radius: 17px;
-    box-shadow: -9px 9px 17px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 9px 17px rgba(0, 0, 0, 0.4);
   }
   .basic{
     font-size: 1.3rem;
@@ -147,39 +149,45 @@ nav.sticky{
       background-color: rgba(0,0,0,1);
     }
     #imageperson{
+      width: 0px;
       display: none;
     }
     .banner{
       height: 600px;
       width: 100%;
+      margin-right: 0%;
+      padding-right: 0%;
     }
     .basic1{
-      margin-right: 20%;
+      margin-right: 10%;
     }
     .intro{
       margin-right: 30%;
     }
+    .briefhead{
+      margin-left:50px;
+    }
     .briefcontent{
-      
-    margin-right: 20%;
+      text-align: left;
+      margin-left:50px;
+    margin-right: 0%;
     }
     .images{
+      width: 0%;
       opacity: 0;
     }
    .subtext{
       margin-right: 10%;
     }
     .subtext1{
-      text-align: center;
-      margin-left: 1%;
+      margin-left: 50px;
       margin-right: 1%;
       margin-bottom: 4%;
       }
     .subtitle1{
       margin-top: 2px;
-      text-align: center;
       margin-right: 5%;
-      margin-left: 1%;
+      margin-left: 50px;
     }
     .content1{
       margin-left: 0%;
@@ -200,20 +208,23 @@ nav.sticky{
     }
   }
   @media(max-width:550px){
+    body{
+      align-items: center;
+    }
     .banner{
       border-radius: 0;
+      margin-right: 0%;
+      padding-right: 0%;
     }
     .subtext1{
-      text-align: center;
-      margin-left: 1%;
+      margin-left: 50px;
       margin-right: 1%;
       }
     .subtitle1{
-      text-align: center;
       font-size: 2rem;
       margin-top: 10px;
       margin-right: 1%;
-      margin-left: 1%;
+      margin-left:50px;
     }
     .pading{
       margin-top:20%;
@@ -229,8 +240,17 @@ nav.sticky{
       padding: 0%;
       margin-top: 10px;
     }
+    .briefhead{
+      margin-left:50px;
+    }
+    .briefcontent{
+      text-align: left;
+      margin-left:50px;
+    margin-right: 0%;
+    }
     
     .images{
+      width :0px;
       opacity: 0;
     }
   }
@@ -242,8 +262,9 @@ nav.sticky{
     
   }
   .briefhead{
+    margin-left: 50px;
     position: absolute;
-    text-align: center;
+    text-align: left;
     font-family: 'Bebas Neue', cursive;
     position: relative;
     font-size: 4.5rem;
@@ -254,14 +275,13 @@ nav.sticky{
   .briefcontent{
     
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 1em;
-    margin-left: 10%;
+    margin-left: 50px;
     margin-right: 10%;
     color: black;
   }
   .images{
-    margin-right: 40%;
     height: 20rem;
     width: 20rem;
   }
@@ -575,3 +595,4 @@ nav.sticky{
 .custom-shape-divider-bottom-1614959480 .shape-fill {
   fill: #85DCB8;
 }
+
