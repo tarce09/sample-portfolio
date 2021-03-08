@@ -145,6 +145,13 @@ nav.sticky{
     grid-gap: 0px 0px;
   }
   @media(max-width:999px){
+    .wave{
+      position: absolute;
+      bottom: 0%;
+      left: 0%;
+      z-index: -100;
+      opacity: 0;
+    }
     .nav{
       background-color: rgba(0,0,0,1);
     }
